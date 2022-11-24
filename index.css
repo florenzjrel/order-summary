@@ -78,6 +78,10 @@ p {
     cursor: pointer;
 }
 
+.change:hover {
+    color: hsl(246, 46%, 59%);
+}
+
 .btns {
     border: none;
     padding: 15px 0;
@@ -99,10 +103,18 @@ p {
     box-shadow: 0 16px 15px rgb(226, 226, 226);
 }
 
+.primary-btn:hover {
+    background-color: hsl(246, 46%, 59%);
+}
+
 .secondary-btn {
     background: none;
     color: hsl(224, 23%, 55%);
     font-weight: 900;
+}
+
+.secondary-btn:hover {
+    color: hsl(223, 47%, 23%);
 }
 
 .attribution {
