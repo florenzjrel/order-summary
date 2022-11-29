@@ -11,6 +11,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -40,3 +41,7 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@florenzjrel](https://www.frontendmentor.io/profile/florenzjrel)
+
+## Acknowledgments
+
+Grateful for Deniel Den and Adriano Escarabote who helped me out on this project. They gave advices which made my Order Summary much better. 
