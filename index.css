@@ -1,9 +1,16 @@
 body {
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
     text-align: center;
     background-color: hsl(225, 100%, 94%);
     font-family: 'Red Hat Display', sans-serif;
     background-image: url('images/pattern-background-desktop.svg');
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -19,19 +26,15 @@ p {
     color: hsl(224, 23%, 55%);
 }
 
-.container {
+main {
     margin: 0 auto;
-    margin-top: 50px;
     width: 350px;
     background-color: white;
     border-radius: 20px;
 }
 
-.illustration {
-    background-image: url('images/illustration-hero.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 170px;
+#illustration-img {
+    height: 171px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -79,6 +82,7 @@ p {
 }
 
 .change:hover {
+    transition: 2s;
     color: hsl(246, 46%, 59%);
 }
 
@@ -104,6 +108,7 @@ p {
 }
 
 .primary-btn:hover {
+    transition: 0.3s;
     background-color: hsl(246, 46%, 59%);
 }
 
@@ -114,6 +119,7 @@ p {
 }
 
 .secondary-btn:hover {
+    transition: 0.3s;
     color: hsl(223, 47%, 23%);
 }
 
